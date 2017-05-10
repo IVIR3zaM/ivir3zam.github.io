@@ -242,12 +242,14 @@ echo 'Total amount: $'.$order->getAmount() . PHP_EOL;
 
 the output will look likes this:
 
-**
-Order of
-  - Turkish Coffee with Sugar and Milk : $5.9
-  - France Coffee with Milk : $7.7
-Total items: 5
-Total amount: $13.6
-**
+>Order of
+>
+>  - Turkish Coffee with Sugar and Milk : $5.9
+>
+>  - France Coffee with Milk : $7.7
+>
+>Total items: 5
+>
+>Total amount: $13.6
 
 Awesome! We use the power of composite design pattern in a coffee shop ordering system with php 7. but this is not enough. You can’t use this implementation in an ORM based system. Because ORMs have a Model Abstraction Layer that must be extends by each entity. And remember we are extending other class in our all three concrete classes: Coffee, Addin and Order. If you want to now the solution please wait a bit for me to write the **Part #2: Merge Composite Design Pattern with ORM Abstract Layer**

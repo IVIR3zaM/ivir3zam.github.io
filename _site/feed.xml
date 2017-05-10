@@ -6,8 +6,8 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 May 2017 12:23:52 +0430</pubDate>
-    <lastBuildDate>Wed, 10 May 2017 12:23:52 +0430</lastBuildDate>
+    <pubDate>Wed, 10 May 2017 12:34:28 +0430</pubDate>
+    <lastBuildDate>Wed, 10 May 2017 12:34:28 +0430</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -226,13 +226,22 @@
 
 &lt;p&gt;the output will look likes this:&lt;/p&gt;
 
-&lt;p&gt;**
-Order of
-  - Turkish Coffee with Sugar and Milk : $5.9
-  - France Coffee with Milk : $7.7
-Total items: 5
-Total amount: $13.6
-**&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Order of&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;p&gt;Turkish Coffee with Sugar and Milk : $5.9&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;France Coffee with Milk : $7.7&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;p&gt;Total items: 5&lt;/p&gt;
+
+  &lt;p&gt;Total amount: $13.6&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Awesome! We use the power of composite design pattern in a coffee shop ordering system with php 7. but this is not enough. You can’t use this implementation in an ORM based system. Because ORMs have a Model Abstraction Layer that must be extends by each entity. And remember we are extending other class in our all three concrete classes: Coffee, Addin and Order. If you want to now the solution please wait a bit for me to write the &lt;strong&gt;Part #2: Merge Composite Design Pattern with ORM Abstract Layer&lt;/strong&gt;&lt;/p&gt;
 </description>
