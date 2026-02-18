@@ -1,0 +1,54 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://identity.foundation/linked-vp/contexts/v1",
+    "https://w3id.org/security/suites/ed25519-2018/v1"
+  ],
+  "id": "urn:uuid:18e288fa-9502-43c9-afdc-6ddfe8213d73",
+  "type": [
+    "VerifiablePresentation",
+    "LinkedVerifiablePresentation"
+  ],
+  "holder": "did:webvh:QmRmL1DwTcKbZ3J4pstuYnfspsD99DBwj5BHarXibaDFpb:ivir3zam.github.io",
+  "verifiableCredential": [
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/ed25519-2018/v1"
+      ],
+      "id": "urn:uuid:bb866b79-d93a-4092-84a6-1d101e9b7ee5",
+      "type": [
+        "VerifiableCredential",
+        "WhoIsCredential"
+      ],
+      "issuer": "did:webvh:QmRmL1DwTcKbZ3J4pstuYnfspsD99DBwj5BHarXibaDFpb:ivir3zam.github.io",
+      "issuanceDate": "2026-02-18T10:13:41.415Z",
+      "credentialSubject": {
+        "id": "did:webvh:QmRmL1DwTcKbZ3J4pstuYnfspsD99DBwj5BHarXibaDFpb:ivir3zam.github.io",
+        "name": "Reza Maghoul"
+      },
+      "credentialSchema": {
+        "id": "https://ivir3zam.github.io/.well-known/whois-credential.schema.json",
+        "type": "JsonSchema"
+      },
+      "proof": {
+        "type": "Ed25519Signature2018",
+        "created": "2026-02-18T10:13:41.415Z",
+        "verificationMethod": "did:key:z6MkerbLfYEu1EFSUbeCn7MNJ3G8vKeTZ6bNRRHnnYdhtDS4#z6MkerbLfYEu1EFSUbeCn7MNJ3G8vKeTZ6bNRRHnnYdhtDS4",
+        "proofPurpose": "assertionMethod",
+        "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Wa83sceUqW9g2oE6sNlCaDttFtsDNOywrMxg3Z6G-WTlX1TBpBcucNAYx8JRNTMBPT2KDghM902MDYsmuJZGDQ"
+      }
+    }
+  ],
+  "presentationSchema": {
+    "id": "https://ivir3zam.github.io/.well-known/whois-presentation.schema.json",
+    "type": "JsonSchema"
+  },
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2026-02-18T10:13:41.417Z",
+    "verificationMethod": "did:key:z6MkerbLfYEu1EFSUbeCn7MNJ3G8vKeTZ6bNRRHnnYdhtDS4#z6MkerbLfYEu1EFSUbeCn7MNJ3G8vKeTZ6bNRRHnnYdhtDS4",
+    "proofPurpose": "assertionMethod",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..5c7YmZVOshf8tt_v5y3tzLLZIAJ-J7U17Iwp0aD17eeDy57cwhV4GndrALdWZoul2vBSBajZnXqIk6GrB77dDA"
+  }
+}
