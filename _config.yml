@@ -17,3 +17,5 @@ github_username:  ivir3zam
 
 # Build settings
 markdown: kramdown
+include:
+  - ".well-known"
