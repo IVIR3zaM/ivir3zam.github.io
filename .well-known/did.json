@@ -25,13 +25,13 @@
     {
       "id": "#files",
       "type": "relativeRef",
-      "serviceEndpoint": "https://ivir3zam.github.io/"
+      "serviceEndpoint": "https://ivir3zam.github.io"
     },
     {
       "@context": "https://identity.foundation/linked-vp/contexts/v1",
       "id": "#whois",
       "type": "LinkedVerifiablePresentation",
-      "serviceEndpoint": "https://ivir3zam.github.io/whois.vp"
+      "serviceEndpoint": "https://ivir3zam.github.io/.well-known/whois.vp"
     }
   ]
 }
